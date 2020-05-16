@@ -1,0 +1,44 @@
+body {
+    background-color: rgba(30, 143, 255, 0.623);
+}
+
+.image {
+    text-align: center;
+}
+
+img {
+    width: 15%;
+    margin: 10px;
+    height: auto;
+}
+
+h1 {
+    text-align: center;
+}
+
+.Top {
+    display: flex;
+    justify-content: center;
+}
+
+.flex-container {
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    margin: 0px auto;
+    width: 550px;
+    height: 100%;
+}
+
+.flex-container > div {
+    background-color: white;
+}
+
+.Question {
+    margin: 10px;
+}
+
+.likert li {
+    float: left;
+    list-style-type: none;
+}
