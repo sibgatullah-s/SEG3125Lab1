@@ -1,5 +1,5 @@
 body {
-    background-color: rgba(30, 143, 255, 0.623);
+    background-color: rgba(46, 106, 235, 0.884);
 }
 
 .image {
@@ -12,6 +12,10 @@ img {
     height: auto;
 }
 
+img:hover {
+    transform: scale(1.5);
+}
+
 h1 {
     text-align: center;
 }
@@ -19,6 +23,8 @@ h1 {
 .Top {
     display: flex;
     justify-content: center;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 17;
 }
 
 .flex-container {
@@ -36,9 +42,41 @@ h1 {
 
 .Question {
     margin: 10px;
+    border-style: outset;
+    border-width: thin;
+    background-color: rgba(46, 106, 235, 0.295);
+
+}
+
+.Q {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 16.75;
+}
+
+.likert {
+    display: flex;
+    justify-content: center;
 }
 
 .likert li {
     float: left;
     list-style-type: none;
+}
+
+.submitbtn {
+    text-align: center;
+}
+
+button {
+    background-color: rgba(238, 238, 238, 0.445);
+    padding: 10px;
+}
+
+textarea {
+    width: 100%;
+}
+
+footer {
+    margin: 10px;
+    font-size: 11;
 }
