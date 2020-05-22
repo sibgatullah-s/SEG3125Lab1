@@ -1,6 +1,8 @@
 body {
     /* background-image: linear-gradient(to right, rgb(157, 196, 214) 0%, rgb(255, 255, 255) 66%, rgb(229, 237, 232) 66%, rgb(229, 237, 232) 100%); */
-    background-image: url('images/background.jpg');
+    background-image: url('images/backgroundblur.jpg'); 
+    background-size: cover;
+    background-attachment: fixed; 
 }
 
 .image {
@@ -45,7 +47,6 @@ h1 {
     width: 550px;
     background-color: rgba(138, 188, 159, 0.5);
     background-image: url('images/bamboo.png');
-
 }
 
 .flex-container > div {
