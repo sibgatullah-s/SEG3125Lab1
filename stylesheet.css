@@ -9,7 +9,7 @@ body {
 
 img {
     width: 15%;
-    margin: 10px;
+    margin: 20px;
     height: auto;
 }
 
@@ -29,6 +29,7 @@ h1 {
     font-family: 'Libre Baskerville', sans-serif;
     font-size: 17;
     font-weight: 400;
+    margin-bottom: 15px;
 }
 
 .wrapper {
@@ -53,6 +54,13 @@ h1 {
 
 .Question {
     margin: 10px;
+}
+
+hr {
+    width: 300px;
+    color: rgba(138, 188, 159, 0.8);
+    margin-top: 35px;
+    margin-bottom: 35px;
 }
 
 .Q {
@@ -102,7 +110,7 @@ h1 {
     vertical-align: top;
 }
 
-.likert li input[type=radio] {
+.likert li input {
     display: block;
     position: relative;
     top: 0;
